@@ -19,9 +19,9 @@
             <div class="Ajout_form"> 
                 <div class="formulaire">
                     <input type="text" placeholder="Ajouter une tâche" id="Tache">
-                    <input type="date" placeholder="Ajouter la date de début" id="date">
-                    <select name="" id="priorite">
-                        <option value=""></option>
+                    <input type="date" id="date">
+                    <select name="priorite" id="priorite">
+                        <option value="">_</option>
                         <option value="Elevée">Elevée</option>
                         <option value="Moyenne">Moyenne</option>
                         <option value="Faible">Faible</option>
@@ -34,7 +34,7 @@
 
         <div id="listZone">
                     <div class="title">
-                      <span><h1>Liste des tâches</h1> <a href="#" id="Ajout">Ajouter une tâche</a></span>
+                      <div><h1>Liste des tâches</h1> <a href="#" id="Ajout">Ajouter une tâche</a></div>
                   </div>
                   <div class="list">        
                       <table id="tableauTaches">
@@ -45,9 +45,6 @@
                               <th>Statut</th>
                               <th>sup</th>
                           </tr>
-                          
-
-
                       </table>
                   </div>
         </div>
